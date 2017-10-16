@@ -29,5 +29,8 @@ p::first-letter {
 }
 
 ul {
-    list-style-image:url('img/Asterisk.png');
+    list-style-image:url('/img/Asterisk.png');
+    padding-left: 30px;
+    padding-top: 20px;
 }
+
