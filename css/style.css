@@ -1,0 +1,12 @@
+h1 {
+    text-transform: uppercase;
+    color:#191970;
+}
+
+ul {
+    list-style-image: url(.././img/pointer.png);
+}
+
+li>ul {
+    list-style-image: url(.././img/Asterisk.png);   
+}
