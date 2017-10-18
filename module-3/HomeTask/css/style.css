@@ -1,0 +1,34 @@
+body {
+    background-image: url(../img/ocean.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    color:rgb(8, 8, 78);
+    padding-top: 10px;
+}
+
+.wrapper {
+    max-width: 480px;
+    height: auto;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 10%;
+}
