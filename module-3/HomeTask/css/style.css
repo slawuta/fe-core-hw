@@ -32,3 +32,8 @@ img {
     vertical-align: top;
     padding-left: 10%;
 }
+
+li {
+    color: rgb(22, 14, 39);
+    font-family: monospace;
+}
