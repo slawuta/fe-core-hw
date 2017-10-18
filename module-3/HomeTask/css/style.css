@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     background-image: url(../img/ocean.jpg);
     background-repeat: no-repeat;
@@ -5,6 +11,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: sans-serif;
+    font-size: 14px;
 }
 
 
@@ -15,12 +22,16 @@ h2 {
 }
 
 .wrapper {
+    box-sizing: border-box;
     max-width: 480px;
     height: auto;
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 50px 40px;
     background-color: white;
+}
+
+p, h2, h3 {
+    margin: 20px 0px;
 }
 
 img {
@@ -34,6 +45,8 @@ img {
 }
 
 li {
+    list-style-type: none;
     color: rgb(22, 14, 39);
     font-family: Courier New, monospace;
+    line-height: 1.5;
 }
