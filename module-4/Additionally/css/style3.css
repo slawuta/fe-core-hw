@@ -1,0 +1,20 @@
+body {
+counter-reset: count-li;
+}
+
+li {
+    /* margin: 10px;
+    padding: 0 75px; */
+    list-style: none; 
+    background-color: orangered;
+    counter-increment: count-li;
+}
+
+li:before {
+    height: 200px;
+    width: 200px;
+    content: counter(count-li);
+    line-height: 200px;
+    text-align: center;
+}
+

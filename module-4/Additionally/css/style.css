@@ -1,0 +1,44 @@
+.first_task li {
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+    line-height: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: hsla(120, 50%, 50%, 0.6);
+}
+
+.first_task li:hover {
+    background-color: hsla(120, 70%, 60%, 0.8);
+    text-transform: uppercase;
+}
+
+.second_task li {
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+    line-height: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #0E1116;
+}
+
+.second_task li:nth-of-type(3n+1) {
+    background-color: #88292F;
+}
+
+.second_task li:nth-of-type(3n+2) {
+    background-color: #5DB7DE;
+}
+
+.second_task li:nth-of-type(3n) {
+    background-color: #0D5D56;
+}
+
+.third_task li {
+    list-style: none;
+}
+
+.third_task li:before {
+    content: "→";
+}

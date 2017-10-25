@@ -1,0 +1,17 @@
+
+p:target {
+    color:red;
+}
+
+.content, .aside {
+    height:200px;
+    display:inline-block;
+}
+.content {
+    
+    background-color: red;
+}
+
+.aside {
+   color: green;
+}

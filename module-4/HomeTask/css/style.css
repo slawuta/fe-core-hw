@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --w-w:1024px;
+    --q-w: calc((var(--w-w) - 100px)/4);
+    --q-h:200px;
+    background-image: url(../img/ocean.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.wrapper {
+    max-width: var(--w-w);
+    margin: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 0;
+    background-color: white;
+    
+}
+
+.header {
+    border-bottom: 1px solid rgba(126, 117, 117, 0.699);
+}
+
+
+.content, .menu {
+    box-sizing: border-box;
+    display:inline-block;
+    padding: 10px;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: helvetica, sans-serif;
+    vertical-align: top;
+}
+
+.content {
+    /* background-color: yellow; */
+    width: 75%;
+}
+
+.menu {
+    /* background-color: grey; */
+    width: 25%;
+    counter-reset: count;
+}
+
+.menu  h4 {
+    counter-increment: count;
+}
+
+.menu h4:before {
+    content: counter(count);
+    background-color: #38afe5;
+    border-radius: 15px;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+} 
+
+
+.quote {
+    width: var(--q-w);
+    min-height: var(--q-h);
+
+    background-color: #fcfafa;
+    border: 1px solid lightgrey;
+}
+
+.quote_triangle {
+    width: 0;
+    height: 0;
+    display:inline-block;
+    border-top:30px solid lightgrey;
+    border-right:30px solid transparent;
+    border-bottom:30px solid transparent;
+    border-left:30px solid transparent;
+    position: relative;
+    margin-left: calc((var(--q-w) - 60px)/2);
+}
+.triangle {
+    width: 0;
+    height: 0;
+    display:inline-block;
+    border-top:30px solid #fcfafa;
+    border-right:30px solid transparent;
+    border-bottom:30px solid transparent;
+    border-left:30px solid transparent;
+    position: absolute;
+    left:-30px;
+    top:-31px;
+}
+
+.menu div.quote:before {
+    content: "“";
+    /* background-color: green;  */
+}
+
+.menu div.quote:after {
+    content: "”";
+}
+
+h2, h3, h4, .footer_links a {
+    margin: 0;
+    padding: 0;
+    color: #263555;
+}
+
+h2 {
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3, h4 {
+    margin: 10px;
+}   
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer_links {
+    list-style: none;
+}
+
+ul.footer_links {
+    margin-top: 40px;
+}
+
+.footer_links li {
+    display: inline-block;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+ 
+.footer_links a {
+    font-family: monospace;
+}
+
+.footer_links li>a:before {
+    content: " ";
+    background-image: url(../img/pointer.png);
+    display:inline-block;
+    width: 10px;
+    height: 10px;    
+}
+
+h3 + p {
+    text-align: center;
+    font-size: 14px;
+}
