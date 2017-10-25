@@ -131,6 +131,10 @@ img {
     margin-right: 10px;
 }
 
+p {
+    margin-top: 1rem;
+}
+
 .footer_links {
     list-style: none;
 }
