@@ -113,7 +113,7 @@ h2, h3, h4, .footer_links a {
 }
 
 h2 {
-    margin: 20px;
+    margin: 20px 0;
     text-transform: uppercase;
 }
 
@@ -159,4 +159,8 @@ ul.footer_links {
 h3 + p {
     text-align: center;
     font-size: 14px;
+}
+
+li > a {
+    text-decoration: none; 
 }
