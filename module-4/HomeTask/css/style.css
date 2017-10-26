@@ -135,7 +135,7 @@ p {
     margin-top: 1rem;
 }
 
-.menu p{
+.menu p {
     padding-left: 40px;      
 }
 
@@ -165,9 +165,10 @@ ul.footer_links {
     height: 10px;    
 }
 
-h3 + p {
+.menu h3 + p {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    padding-left:0;
 }
 
 li > a {
