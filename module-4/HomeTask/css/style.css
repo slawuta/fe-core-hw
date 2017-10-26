@@ -135,6 +135,10 @@ p {
     margin-top: 1rem;
 }
 
+.menu p{
+    padding-left: 40px;      
+}
+
 .footer_links {
     list-style: none;
 }
