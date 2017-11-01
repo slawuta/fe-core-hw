@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(https://files.slack.com/files-pri/T79DPALD9-F7Q6JD2SX/page-bg.jpg);
+    background: url(../img/ocean.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -14,11 +14,8 @@ body {
 .wrapper {
     max-width: var(--max-width);
     box-sizing: border-box;
-    /* outline: 2px solid red; */
     margin: auto;
     padding: 0;
-    /* margin-top: 220px; */
-    /* min-height: 2048px; */
 }
 
 /* =====================header======================= */
@@ -122,7 +119,6 @@ ul.submenu li {
 .submenu li:first-of-type {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-
 }
 
 .submenu li:last-of-type {
@@ -159,7 +155,6 @@ main p {
     position: absolute;
     display: inline-block;
     height: 40px;
-    /* font-family: "Pathway Gothic One", sans-serif; */
     font-size: 24px;
     text-align: center; 
     line-height: 40px;
