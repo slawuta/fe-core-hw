@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(.././img/ocean.jpg);
+    background: url(../img/Ocean.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
