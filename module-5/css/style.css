@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(../img/Ocean.jpg);
+    background-image: url(../img/Ocean.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -292,9 +292,15 @@ h2, p, .details {
 }
 
 .details a {
+    display: block;
     text-decoration: none;
     font-family: "Arial", sans-serif;
     font-weight: bold;
     color: black;
     line-height: 30px;
+}
+
+.details a:hover {
+    background-color: #38afe5;
+    color: white;
 }
