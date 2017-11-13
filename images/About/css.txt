@@ -1,0 +1,157 @@
+.Page_footer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 1795px;
+  z-index: 22;
+}
+.list {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 1795px;
+  z-index: 21;
+}
+.Contact_Us: {
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 1.2,0,0,1.2,0,0);
+  -webkit-transform: matrix( 1.2,0,0,1.2,0,0);
+  -ms-transform: matrix( 1.2,0,0,1.2,0,0);
+  position: absolute;
+  left: 1160.135px;
+  top: 1570.414px;
+  width: 81.603px;
+  height: 10.938px;
+  z-index: 20;
+}
+.TEL:_1_800_234_5678_info_demolink_org {
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.583;
+  text-align: left;
+  -moz-transform: matrix( 1.2,0,0,1.19999999999999,0,0);
+  -webkit-transform: matrix( 1.2,0,0,1.19999999999999,0,0);
+  -ms-transform: matrix( 1.2,0,0,1.19999999999999,0,0);
+  position: absolute;
+  left: 1173.5px;
+  top: 1616.335px;
+  width: 99px;
+  height: 24.833px;
+  z-index: 19;
+}
+.Insurance__Family_Travel__Partners__ {
+  font-size: 13.333px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 0.875;
+  text-align: left;
+  -moz-transform: matrix( 1.2,0,0,1.20000000000001,0,0);
+  -webkit-transform: matrix( 1.2,0,0,1.20000000000001,0,0);
+  -ms-transform: matrix( 1.2,0,0,1.20000000000001,0,0);
+  position: absolute;
+  left: 977.021px;
+  top: 1584.34px;
+  width: 63.835px;
+  height: 32.315px;
+  z-index: 18;
+}
+.Useful_links__Partners__ {
+  font-size: 13.333px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 0.875;
+  text-align: left;
+  -moz-transform: matrix( 1.2,0,0,1.20000000000001,0,0);
+  -webkit-transform: matrix( 1.2,0,0,1.20000000000001,0,0);
+  -ms-transform: matrix( 1.2,0,0,1.20000000000001,0,0);
+  position: absolute;
+  left: 794.14px;
+  top: 1590.173px;
+  width: 41.596px;
+  height: 20.648px;
+  z-index: 17;
+}
+.FAQS_Page__People_Say__Insurance {
+  font-size: 13.333px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 0.875;
+  text-align: left;
+  -moz-transform: matrix( 1.2,0,0,1.2,0,0);
+  -webkit-transform: matrix( 1.2,0,0,1.2,0,0);
+  -ms-transform: matrix( 1.2,0,0,1.2,0,0);
+  position: absolute;
+  left: 584.347px;
+  top: 1584.34px;
+  width: 65.182px;
+  height: 32.315px;
+  z-index: 16;
+}
+.Journey_©_2013___Privacy_Policy___Website_desig {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 745px;
+  top: 1767.874px;
+  width: 411px;
+  height: 11px;
+  z-index: 15;
+}
+.social_links {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 1795px;
+  z-index: 13;
+}
+.Layer_51 {
+  background-image: url("Layer 51.png");
+  position: absolute;
+  left: 862px;
+  top: 1686px;
+  width: 40px;
+  height: 40px;
+  z-index: 12;
+}
+.Layer_49 {
+  background-image: url("Layer 49.png");
+  position: absolute;
+  left: 1020px;
+  top: 1686px;
+  width: 40px;
+  height: 40px;
+  z-index: 11;
+}
+.Layer_48 {
+  background-image: url("Layer 48.png");
+  position: absolute;
+  left: 968px;
+  top: 1686px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+}
+.Layer_47 {
+  background-image: url("Layer 47.png");
+  position: absolute;
+  left: 914px;
+  top: 1686px;
+  width: 40px;
+  height: 40px;
+  z-index: 9;
+}
